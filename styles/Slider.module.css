@@ -1,0 +1,38 @@
+.sliderCon {
+  width: 50%;
+  background: #f3f5f8;
+  border-radius: 16px;
+  padding: 54px 104px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon span {
+  margin-top: 6px;
+  background: #a2aedb;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+.icon span:nth-child(even) {
+  background: #ffbd95;
+}
+
+@media (max-width: 1220px) {
+  .sliderCon {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 997px) {
+  .sliderCon {
+    padding: 0px;
+  }
+}

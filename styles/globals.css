@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #3d639d;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.productPage h2,
+.checkoutPage h2 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3d639d;
+}
+
+.productPage span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.navigation {
+  color: #00c48c;
+}
+
+.productPage h5 {
+  margin-bottom: 20px;
+}
+
+.details {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.details p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bbc2d0;
+}
+
+.months {
+  margin-top: 16px;
+  border: 1px solid #00c48c;
+  border-radius: 6px;
+}
+
+.months > div {
+  color: #fff;
+  padding: 10px 0;
+  border: 1px solid #00c48c;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #00c48c;
+  text-align: center;
+  width: 100%;
+}
+
+.models {
+  margin-top: 40px;
+}
+
+.standart {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262728 !important;
+}
+
+.months > div:first-child {
+  background: #00c48c;
+  color: #fff;
+}
+
+.align {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.more {
+  color: #00c48c;
+}
+
+.details small {
+  margin-top: 6px;
+  display: inline-block;
+  background: #ff647c;
+  border-radius: 2px;
+  padding: 2px 6px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@media (max-width: 1430px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1220px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1020px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 794px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

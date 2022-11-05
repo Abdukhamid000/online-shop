@@ -1,0 +1,31 @@
+.searchCon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.mainSearch {
+  width: 90%;
+  border: none;
+  background: #ffffff;
+  border-radius: 26px 0 0 26px;
+  padding: 16px 0 16px 20px;
+  letter-spacing: -0.3px;
+  font-size: 16px;
+  outline: none;
+}
+
+.mainSearch::placeholder {
+  color: #bbc2d0;
+}
+
+.searchIcon {
+  cursor: pointer;
+  padding: 13px 38px;
+  height: 50px;
+  width: 100px;
+  background: #00c48c;
+  border-radius: 0px 26px 26px 0px;
+}

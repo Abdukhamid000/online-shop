@@ -1,0 +1,60 @@
+.items {
+  width: 192px;
+  height: 265px;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px rgba(138, 149, 158, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card {
+  padding: 16px 6px;
+  display: flex;
+  background: #f7f7f7;
+  border-radius: 6px;
+}
+
+.badge {
+  margin-right: 10px;
+}
+
+.badge span {
+  display: block;
+  background: #a2aedb;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+.items p {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #262728;
+}
+
+.items strong {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #262728;
+}
+
+.badge span:last-child {
+  background: #ffbd95;
+  margin-top: 6px;
+}
+
+.loan {
+  margin-top: 6px;
+  display: inline-block;
+  background: #ff647c;
+  border-radius: 2px;
+  padding: 2px 6px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}

@@ -1,0 +1,19 @@
+.pagination {
+  height: 36px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.pagination span {
+  cursor: pointer;
+}
+
+.numbers small {
+  padding: 15px;
+}
+
+.numbers small:nth-child(2) {
+  background: #00c48c;
+  border-radius: 10px;
+  color: #fff;
+}
