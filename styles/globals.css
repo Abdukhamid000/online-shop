@@ -142,6 +142,18 @@ ul {
   color: #ffffff;
 }
 
+.badge {
+  background: #f39dbd;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+.bundle {
+  background: #a2aedb;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -1,0 +1,83 @@
+.stockCon h5 {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: -0.3px;
+  color: #00c48c;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  border-bottom: 1px solid #bbc2d0;
+  padding: 15px 0px;
+}
+
+.col small {
+  font-size: 16px;
+  line-height: 19px;
+  color: #bbc2d0;
+  margin-left: 45px;
+}
+
+.top p {
+  margin-right: auto;
+  margin-left: 16px;
+}
+
+.top input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border-radius: 6px;
+  border: 0.15em solid #00c48c;
+  background-color: #00c48c;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.top input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: CanvasText;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  box-shadow: inset 1em 1em #fff;
+}
+
+.top input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.btn {
+  margin-top: 30px;
+  background: #00c48c;
+  border: none;
+  border-radius: 26px;
+  width: 100%;
+  padding: 16px 0;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
